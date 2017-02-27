@@ -93,6 +93,10 @@
     padding: 21.5px 25px;
   }
 
+  #first_list {
+    padding: 25px 18px;
+  }
+
 }
 
 @media only screen and (min-width : 1025px) and (max-width : 1223px) {
@@ -133,6 +137,11 @@
   .no-padding {
     padding: 21.5px 25px;
   }
+
+  #first_list {
+    padding: 34px 18px;
+  }
+
 }
 
 @media only screen and (min-width : 481px) and (max-width : 767px) {
