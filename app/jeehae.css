@@ -1,14 +1,5 @@
-.jeehae {
-  background-color :  #f9f9fb;
-}
-
-.flex_box{
-  display: flex;
-  flex-wrap: wrap;
-  /*background-color: red;*/
-}
-
-
+@media only screen  and (min-width : 1224px) {
+/* Styles */
 .list-group-item{
   padding: 26px;
 }
@@ -16,6 +7,20 @@
 .list-group-item div{
   width: 100%;
 }
+
+}
+
+
+
+.jeehae {
+  background-color :  #f9f9fb;
+}
+
+.flex_box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .list-group-item > div > p{
   margin: 3px;
   font-family: Lato;
@@ -29,6 +34,7 @@
   color: #000000;
   padding: 1px;
 }
+
 .card-title{
   font-family: NotoSansCJKkr;
   font-size: 16px;
@@ -62,4 +68,10 @@
 }
 .no-padding >div > p {
   padding: 0;
+}
+
+.card-block{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
