@@ -1,24 +1,19 @@
-@media only screen  and (min-width : 1224px) {
-/* Styles */
-.list-group-item{
-  padding: 26px;
-}
-
-.list-group-item div{
-  width: 100%;
-}
-
-}
-
-
-
 .jeehae {
   background-color :  #f9f9fb;
+}
+
+.logo_caption {
+  padding: 40px 70px 10px;
+  font-size:18px;
 }
 
 .flex_box{
   display: flex;
   flex-wrap: wrap;
+}
+
+.list-group-item div{
+  width: 100%;
 }
 
 .list-group-item > div > p{
@@ -33,6 +28,17 @@
   text-align: right;
   color: #000000;
   padding: 1px;
+}
+
+.card {
+  margin: 3%;
+  width:45%;
+  margin-right:4%;
+}
+.card:nth-child(2n) {
+  width:45%;
+  margin-right:0;
+  /*background-color: red;*/
 }
 
 .card-title{
@@ -59,19 +65,130 @@
   color: #0085c3;
 }
 
-.second-list {
-  padding: 33px 25px;
-}
-
-.no-padding {
-  padding: 25.5px 25px;
-}
-.no-padding >div > p {
-  padding: 0;
-}
-
 .card-block{
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.no-padding > div > p {
+  padding: 0;
+}
+
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+  .list-group-item{
+    padding: 26px;
+  }
+
+  .cards-deck{
+    margin: 0 2%;
+  }
+
+  .second-list {
+    padding: 33px 25px;
+  }
+
+  .no-padding {
+    padding: 21.5px 25px;
+  }
+
+  #first_list {
+    padding: 25px 18px;
+  }
+
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1223px) {
+/* Styles */
+  .list-group-item{
+    /*padding: 26px;*/
+  }
+
+  .cards-deck{
+    margin: 1% 2%;
+  }
+
+  .second-list {
+    padding: 33px 25px;
+  }
+
+  .no-padding {
+    padding: 21.5px 25px;
+  }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+/* Styles */
+  .list-group-item{
+    padding: 24px 16px;
+  }
+
+  .cards-deck{
+    margin: 1% 2%;
+  }
+
+  .second-list {
+    padding: 33px 25px;
+  }
+
+  .no-padding {
+    padding: 21.5px 25px;
+  }
+
+  #first_list {
+    padding: 34px 18px;
+  }
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 767px) {
+/* Styles */
+  .list-group-item{
+    padding: 26px;
+  }
+
+  .cards-deck{
+    margin: 1% 2%;
+  }
+
+  .second-list {
+    padding: 33px 25px;
+  }
+
+  .no-padding {
+    padding: 21.5px 25px;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+/* Styles */
+
+  .logo_caption {
+    padding: 40px 20px 10px;
+    font-size: 16px;
+  }
+  .list-group-item{
+    padding: 26px;
+  }
+
+  .cards-deck{
+    margin: 1% 2%;
+  }
+
+  .second-list {
+    padding: 20px 10px;
+  }
+
+  .no-padding {
+    padding: 18px 10px;
+  }
+
+  #last_list {
+    padding: 20px 16px;
+  }
+
 }
