@@ -1,0 +1,197 @@
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+.list-group-item{
+  padding: 26px;
+}
+
+
+
+.list-group-item div{
+  width: 100%;
+}
+
+}
+
+
+
+.shaolian{
+  width:1440px;
+  height:756px;
+}
+.background  {
+  background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\
+}
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.slogantext{
+   width: 215px;
+   height: 90px;
+   object-fit: contain;
+   font-family: Montserrat;
+   font-size: 25px;
+   font-weight: bolder;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 0.8;
+   letter-spacing: normal;
+   color: #ffffff;
+   front-siza:30px;
+   line-height:1.5
+}
+.slogantext:hover {
+  text-decoration:none;
+transform: translate(-30px, -30px);
+text-shadow: 1.5px 1.5px 0 #19426c, 0px 1.5px 0 #19426c, -1.5px -1.5px 0 #19426c, -1.5px -1.5px 0 #19426c, -1.5px 1.5px 0 #19426c, 1.5px -1.5px 0 #19426c;
+}
+.flex_box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-group-item > div > p{
+  margin: 3px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+  padding: 1px;
+}
+.cardblock-contactus{
+  width: 200px;
+  height: 77px;
+  border-radius: 23.5px;
+  border: solid 1px #ffffff
+}
+.cardblock-contactus-text{
+  width: 80px;
+ height: 41px;
+ font-family: AppleSDGothicNeo;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: center;
+ color: #000000;
+ text-decoration: none;
+}
+a, a:hover, a:active, a:visited {
+    text-decoration:none;
+}
+.cardblock-contactus:hover{
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    background: #257fda;
+
+  }
+.cardblock-joinus{
+  width: 200px;
+ height: 47px;
+ border-radius: 23.5px;
+ background-color: #ffffff;
+
+}
+.cardblock-joinus-text{
+  width: 80px;
+ height: 41px;
+ font-family: AppleSDGothicNeo;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: center;
+ color: #0085c3;
+}
+.cardblock-joinus:hover{
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    background:0085c3;
+    text-decoration:none;
+  }
+
+.card-title-contactus{
+  width: 63px;
+    height: 21px;
+    font-family: AppleSDGothicNeo;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.card-title-joinus{
+  width: 63px;
+    height: 21px;
+    font-family: AppleSDGothicNeo;
+    font-size: 18px;
+    font-weight: bold;;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: ##0085c3;
+}
+
+
+
+.card-block-contactus{
+  width: 150px;
+   height: 37px;
+   border-radius: 23.5px;
+   border: solid 1px #000000;
+}
+.card-block-contactus:hover{
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    background: #257fda;
+
+  }
+
+.card-block-joinus{
+  width: 150px;
+   height: 37px;
+   border-radius: 23.5px;
+   background-color: ##0085c3;
+   -webkit-transition:all 0.2s linear;
+   -moz-transition:all 0.2s linear;
+   -o-transition:all 0.2s linear;
+   transition:all 0.2s linear
+}
+.card-block-joinus:hover{
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    background:0085c3;
+    text-decoration:none;
+
+}
